@@ -602,8 +602,8 @@ ul {
   padding: 12px 54px;
   border-radius: 4px;
   color: #fff;
-  border: 1px solid #fdcb9e;
-  text-transform: uppercase;
+/*  border: 1px solid #fdcb9e;
+*/  text-transform: uppercase;
   background-color: #D3AE6B;
   cursor: pointer;
   -webkit-transition: 0.5s;
@@ -652,8 +652,8 @@ ul {
 /* line 161, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_button.scss */
 .button-contactForm {
   color: #fff;
-  border-color: #fdcb9e;
-  padding: 12px 25px;
+/*  border-color: #fdcb9e;
+*/  padding: 12px 25px;
 }
 
 /* End Main Button Area css
@@ -3563,7 +3563,12 @@ ul {
 
 /* line 53, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_contact.scss */
 .form-contact label {
-  font-size: 14px;
+  font-size: 12px;
+  color: #08223a;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  margin-bottom: 0px;
+  font-weight: 400;
 }
 
 /* line 57, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_contact.scss */
