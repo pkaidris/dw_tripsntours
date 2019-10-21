@@ -480,9 +480,9 @@ ul {
 /* line 25, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_button.scss */
 .btn_1, .btn_2 {
   display: inline-block;
-  padding: 13px 30px;
+  padding: 12px 15px;
   border-radius: 0;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   text-transform: capitalize;
   -webkit-transition: 0.5s;
@@ -2246,8 +2246,8 @@ ul {
 /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
   color: #08223a;
-  font-size: 16px;
-  padding: 38px 22px;
+  font-size: 15px;
+  padding: 34px 20px;
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
 }
@@ -2696,10 +2696,10 @@ ul {
 
 /* line 24, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_about.scss */
 .about_us .about_text h2 {
-  line-height: 56px;
-  margin-bottom: 21px;
+  /*line-height: 56px;*/
+  /*margin-bottom: 21px;*/
   font-weight: 700;
-  font-size: 46px;
+  /*font-size: 46px;*/
 }
 
 @media (max-width: 991px) {
@@ -2724,6 +2724,7 @@ ul {
 .about_us .about_text p {
   margin-top: 13px;
   font-weight: 300;
+  margin-bottom: 15px;
 }
 
 /* line 47, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_about.scss */
@@ -4762,7 +4763,7 @@ h6 {
 
 /* line 449, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
 .list-style {
-  width: 14px;
+  width: 16px;
   height: 14px;
 }
 
@@ -4770,7 +4771,13 @@ h6 {
 .unordered-list li {
   position: relative;
   padding-left: 30px;
-  line-height: 1.82em !important;
+  line-height: 28px !important;
+  color: #a2a2a2;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 0px;
+  font-weight: 400;
 }
 
 /* line 459, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
