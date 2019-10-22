@@ -2247,7 +2247,8 @@ ul {
 .main_menu .main-menu-item ul li .nav-link {
   color: #08223a;
   font-size: 15px;
-  padding: 34px 20px;
+  font-weight: 600; 
+  padding: 25px 18px;
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
 }
@@ -2276,12 +2277,12 @@ ul {
 
 /* line 61, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_menu.scss */
 .menu_fixed .navbar-brand img {
-  max-width: 250px;
+  max-width: 350px;
 }
 
 /* line 65, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_menu.scss */
 .menu_fixed .main-menu-item ul li .nav-link {
-  padding: 25px 25px;
+  padding: 25px 18px;
 }
 
 /* line 68, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_menu.scss */
