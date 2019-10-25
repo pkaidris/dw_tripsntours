@@ -222,7 +222,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 
 /* line 129, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 .section_tittle {
-  margin-bottom: 73px;
+  margin-bottom: 63px;
 }
 
 @media (max-width: 991px) {
@@ -2107,7 +2107,7 @@ ul {
 
 /* line 1, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_sub_menu.scss */
 .sub_menu {
-  background-color: #eaefff;
+  background-color: #000; /*#eaefff*/
   padding: 14px 0px;
 }
 
@@ -2176,8 +2176,8 @@ ul {
 
 /* line 40, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_sub_menu.scss */
 .sub_menu .sub_menu_social_icon span {
-  margin-left: 15px;
-  color: #08223a;
+/*  margin-left: 15px;
+*/  color: #D3AE6B; /*#08223a*/
 }
 
 /* line 43, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_sub_menu.scss */
@@ -2188,7 +2188,7 @@ ul {
 
 /* line 49, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_sub_menu.scss */
 .sub_menu .sub_menu_social_icon a {
-  color: #08223a;
+  color: #D3AE6B; /*#08223a*/
   margin-right: 20px;
 }
 
@@ -2899,7 +2899,7 @@ ul {
 /* line 7, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_event_part.scss */
 .event_part .event_slider_content {
   background-color: #fff;
-  padding: 50px;
+  padding: 10px;
 }
 
 @media (max-width: 991px) {
@@ -3767,7 +3767,7 @@ ul {
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_footer.scss */
 .footer-area {
   background-color: #162b45;
-  padding: 130px 0px 0px;
+  padding: 60px 0px 0px;
   position: relative;
 }
 
@@ -4080,7 +4080,7 @@ ul {
 .footer-area .copyright_part_text {
   background-color: #08223a;
   padding: 32px 15px;
-  margin-top: 95px;
+  margin-top: 25px;
 }
 
 /* line 224, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_footer.scss */
