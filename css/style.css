@@ -222,26 +222,26 @@ a:focus, .button:focus, button:focus, .btn:focus {
 
 /* line 129, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 .section_tittle {
-  margin-bottom: 63px;
+  margin-bottom: 43px;
 }
 
 @media (max-width: 991px) {
   /* line 129, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
   .section_tittle {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 129, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
   .section_tittle {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
 /* line 139, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 .section_tittle h2 {
-  font-size: 46px;
+  font-size: 36px;
   color: #08223a;
   line-height: 1.1;
   font-weight: 700;
@@ -3653,20 +3653,20 @@ ul {
 
 /* line 133, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_contact.scss */
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 60px 0 40px;
 }
 
 @media (max-width: 991px) {
   /* line 133, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_contact.scss */
   .contact-section {
-    padding: 70px 0 40px;
+    padding: 70px 0 30px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 133, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_contact.scss */
   .contact-section {
-    padding: 80px 0 50px;
+    padding: 80px 0 40px;
   }
 }
 
