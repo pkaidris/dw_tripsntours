@@ -600,7 +600,7 @@ ul {
   font-size: 15px;
   font-weight: 500;
   padding: 12px 54px;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   color: #fff;
 /*  border: 1px solid #fdcb9e;
 */  text-transform: uppercase;
@@ -3685,7 +3685,7 @@ ul {
 
 /* line 1, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("../img/breadcrumb.png");
+  background-image: url("../img/breadcrumb_1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5577,3 +5577,29 @@ h6 {
 }
 
 /*# sourceMappingURL=../css/style.map */
+
+
+.services p{
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+#navbarSupportedContent a:hover{
+  color: #D3AE6B;
+}
+
+.clear .button:hover{
+  background-color: #162b45; 
+}
+
+footer span a{
+  color: #D3AE6B;
+}
+
+footer span a:hover{
+  color: white;
+}
+
+.main_menu .sub_menu .sub_menu_right_content a{
+  color: #D3AE6B;
+}
