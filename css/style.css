@@ -2277,7 +2277,7 @@ ul {
 
 /* line 61, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_menu.scss */
 .menu_fixed .navbar-brand img {
-  max-width: 320px;
+  max-width: 350px;
 }
 
 /* line 65, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_menu.scss */
@@ -5602,4 +5602,47 @@ footer span a:hover{
 
 .main_menu .sub_menu .sub_menu_right_content a{
   color: #D3AE6B;
+}
+
+@media (max-width: 575px){
+.menu_fixed .navbar-brand img {
+  max-width: 250px;
+}
+}
+
+
+
+#success, #error {
+    display:none
+}
+#success span, #error span {
+    display:block;
+    position:inherit;
+    top:0;
+    width:100%
+}
+
+#success span p {
+  color:#9bd32d;
+}
+#error span p {
+  color:#c0392b;
+}
+
+
+#successSubscription, #errorSubscription {
+    display:none
+}
+#successSubscription span, #errorSubscription span {
+    display:block;
+    position:inherit;
+    top:0;
+    width:100%
+}
+
+#successSubscription span p {
+  color:#9bd32d;
+}
+#errorSubscription span p {
+  color:#c0392b;
 }
