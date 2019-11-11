@@ -1,6 +1,6 @@
 <?php
 
-    $to = "info@dwtripsntours";
+    $to = "info@dwtripsntours.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -13,10 +13,10 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your DW Trips'n'Tours.";
+    $subject = "New Message from DW Trips'n'Tours";
 
     $logo = 'img/logo.png';
-    $link = '#';
+    $link = 'https://dwtripsntours.com/';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
@@ -26,7 +26,7 @@
 	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
 	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
 	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
+	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$subject}</td></tr>";
 	$body .= "<tr><td></td></tr>";
 	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
 	$body .= "</tbody></table>";
