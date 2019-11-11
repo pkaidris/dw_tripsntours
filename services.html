@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Contact - DW Trips n Tours</title>
+    <title>Services - DW Trips n Tours</title>
     <link rel="icon" href="img/favicon.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        #more {display: none;}
+        #myBtn {color: #D3AE6B;}
+    </style>
 </head>
 
 <body>
@@ -125,7 +129,6 @@
     </header>
     <!-- Header part end-->
 
-
     <!-- breadcrumb start-->
     <section class="breadcrumb breadcrumb_bg">
         <div class="container">
@@ -133,8 +136,8 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>contact</h2>
-                            <p>home . contact</p>
+                            <h2>Our Services</h2>
+                            <p>home . Services</p>
                         </div>
                     </div>
                 </div>
@@ -143,83 +146,70 @@
     </section>
     <!-- breadcrumb start-->
 
-
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section">
+    <div class="whole-wrap">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-title">Get in Touch</h2>
-                </div>
-
-                <div class="col-lg-8">
-                    <div id="success">
-                        <span><p>Your message was sent succssfully! I will be in touch as soon as I can.</p></span>
-                    </div>
-                    <div id="error">
-                        <span><p>Something went wrong, try refreshing and submitting the form again.</p></span>
-                    </div>                    
-                    <form class="form-contact contact_form" action="contact_process.php" method="POST" id="contactForm" novalidate="novalidate">
-                        <div class="messages"></div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label for="message">Message *</label>
-                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder='Enter Message'></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="name">Name *</label>
-                                    <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder='Enter your name'>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="email">Email *</label>
-                                    <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder='Enter email address'>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label for="subject">Subject *</label>
-                                    <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder='Enter Subject'>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <button type="submit" class="button button-contactForm btn_1">Send Message</button>
-                        </div>
-                        </form>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-home"></i></span>
-                        <div class="media-body">
-                            <h3>Plot 110, Ashipa Road, Amule Bus Stop, </h3>
-                            <p>Ayobo, Lagos.</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                        <div class="media-body">
-                            <h3>+234 9051 794 796</h3>
-                            <p>Mon to Sat 9am to 6pm</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-email"></i></span>
-                        <div class="media-body">
-                            <h3>dwtripsntours@gmail.com</h3>
-                            <p>Send us your query anytime!</p>
+            <div class="row services">
+                <div class="section-top-border">
+                    <h3 class="mb-30" id="Accommodation">Accommodation</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/services/services_3.png" alt="" class="img-fluid">
+                        </div>                        
+                        <div class="col-md-9 mt-sm-20">
+                            <p>Express your definition of comfort in luxury and style as DW Trips n Tours offer you the best deals ever. With unique selections, top-of-the-line hotels worldwide, no hidden charges nor reservation cost, you can make your perfect getaway a haven of bliss. We know you have passions, we find a way to chase them with you. Special moments are not left out, we cheer you on. You may also need a family away from home, we are that family you need.</p>
+                            <p>Do you wish to experience luxury? We can make your dreams come into fruition with our affordable vacation packages. Be it an adventure holiday, a business trip or a special family vacation, our flexible <span id="dots"></span><span id="more"> accommodation packages are unbeatable. We help you secure the best hotel deals withgreat services anywhere in the world. You can plan a weekend trip or a long holiday in elegance with a budget that fits perfectly with our special vacation packages designed to help you love your destination as much as you love your journey. Our customer support team are always available to help resolve any issue you may bump into. We treat you with an exceptional warmth and care cos we consider our customers to be part of our family. Enjoy the thrills of hospitality displayed especially in our services and hotel packages as DW Trips n Tours gives you the exotic treats you deserve.</span><span onclick="myFunction()" id="myBtn" style="font-style: italic;">...read more</span> </p> 
+                                                      
                         </div>
                     </div>
                 </div>
+                <div class="section-top-border">
+                    <h3 class="mb-30" id="Flight_Reservations">Flight Reservations</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/services/services_1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 mt-sm-20">
+                            <p>DW Trips n Tours offers best local and international flights reservation services. We provide the above stated service to both individuals and corporate bodies to enable them achieve their travel plans to any destination in the world. We ensure you get the best location fro and to any airport of your choice which is most convenient for you. Regardless of the class of ticket you are booking, you can count on us for the most affordable fees you can ever get among our contemporaries. We treat all request diligently and guide you through the booking conditions of interested airlines so that nothing catches you unaware?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-top-border">
+                    <h3 class="mb-30" id="Transfer">Transfer</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/services/services_2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 mt-sm-20">
+                            <p>Dw Trips 'n' Tours provides transfer from airports, hotels, private homes and other locations. It is a smart solution getting popular everyday among passengers traveling for either pleasure or business, thanks to its convenience when compared to more typical ways of moving around. One of the most interesting aspect of booking a transfer in advance, is that the fare is agreed when the reservation is confirmed and remains the same even if the actual travel time gets longer for any reason.</p>
+                        </div>
+                    </div>
+                </div> 
+                <div id="visa" class="section-top-border">
+                    <h3 class="mb-30">Travel Insurance/Visa</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/services/services_5.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 mt-sm-20">
+                            <p>Travel Insurance is designed to provide cover for risks associated with traveling temporarily outside your country of residence. It helps you to travel with peace of mind because it covers the following: medical expenses arising out of illness or accident repatriation cost and many more.</p>
+                            <p>DW Trips n Tours assist with visa processing. visa requirements vary from one country to the other though we do not process visa for an applicant, we counsel and give guidelines on the processing and filling the application form.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-top-border">
+                    <h3 class="mb-30" id="Logistics">Logistics</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/services/services_6.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-9 mt-sm-20">
+                            <p>DW trips n Tours Pickup & delivery services takes away the hassle customers undergo when sending parcels. Our experienced dispatch riders are one phone call away from scheduling your parcel collection at your desired pick up and drop off location. Our delivery services is currently available within Lagos only. Enjoy convenience, flexibility, peace of mind. Eliminate the hassle of traffic and inconvenience.</p>
+                        </div>
+                    </div>
+                </div>                       
             </div>
         </div>
-    </section>
-    <!-- ================ contact section end ================= -->
+    </div>
 
     <!--::newsletter start::-->
     <section class="best_services section_padding">
@@ -348,6 +338,24 @@
     <script src="js/contact.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
-</body>
 
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "...read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = " ...less"; 
+            moreText.style.display = "inline";
+          }
+        }
+    </script>
+
+</body>
 </html>
