@@ -1,6 +1,6 @@
 <?php
 
-    $to = "info@dwtripsntours.com";
+    $to = "dwtripsntours@gmail.com, info@dwtripsntours.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
